@@ -1,5 +1,5 @@
 import Board from './Components/Board';
-import './app.css';
+import './App.scss';
 
 const productBacklog = [
   {

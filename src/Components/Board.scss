@@ -1,0 +1,36 @@
+.Board
+{
+    display: flex;
+    justify-content: center;
+
+    &__card
+    {
+        width: 350px;
+        height: 400px;
+        overflow-y: scroll;
+        margin: 50px 20px;
+        border: 4px solid #007acc;
+        background-color: #e6e6e6;
+
+        &__header,
+        &__list
+        {
+            margin: 10px;
+        }
+
+        &__list
+        {
+            list-style-type: none;
+            padding: 0;
+
+            &__entries
+            {
+                background-color: white;
+                margin: 20px 0;
+                padding: 10px 5px;
+                border-bottom: 1px solid #808080;
+                border-radius: 5px;
+            }
+        }
+    }
+}
